@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Outer Bezel Ring -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,2A10,10 0 1,0 12,22A10,10 0 1,0 12,2Z M12,3.6A8.4,8.4 0 1,1 12,20.4A8.4,8.4 0 1,1 12,3.6Z" />
+    <!-- 12, 6, 9, 3 Hour Ticks -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M11.3,4.2h1.4v2.2h-1.4zM11.3,17.6h1.4v2.2h-1.4zM4.2,11.3h2.2v1.4h-2.2zM17.6,11.3h2.2v1.4h-2.2z" />
+    <!-- 1, 2, 4, 5, 7, 8, 10, 11 Hour Dots -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M15.65,5.15a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM18.32,7.82a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM18.32,15.1a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM15.65,17.77a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM8.35,17.77a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM5.68,15.1a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM5.68,7.82a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1zM8.35,5.15a0.55,0.55 0 1,0 0,1.1a0.55,0.55 0 1,0 0,-1.1z" />
+    <!-- Hour Hand (pointing to ~10 o'clock) -->
+    <path
+        android:pathData="M12,12L8.2,9.6"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.4" />
+    <!-- Minute Hand (pointing to ~2 o'clock) -->
+    <path
+        android:pathData="M12,12L16.8,8.6"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.2" />
+    <!-- Second Hand (needle pointing to ~7 o'clock) -->
+    <path
+        android:pathData="M12,12L9.7,16.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="0.75" />
+    <!-- Center Pivot -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,10.9a1.1,1.1 0 1,0 0,2.2a1.1,1.1 0 1,0 0,-2.2z" />
+</vector>

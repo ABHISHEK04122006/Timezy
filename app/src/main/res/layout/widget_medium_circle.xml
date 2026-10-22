@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_medium_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <!-- Active Event Container: Floating seamlessly directly over wallpaper -->
+    <LinearLayout
+        android:id="@+id/widget_medium_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Circular Progress Ring (White disc center, colored progress arc, bold number & Days label) -->
+        <ImageView
+            android:id="@+id/widget_medium_image"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:contentDescription="Countdown Progress Ring" />
+
+        <!-- Event Title Beneath the Circle -->
+        <TextView
+            android:id="@+id/widget_medium_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:shadowColor="#CC000000"
+            android:shadowDx="0"
+            android:shadowDy="1.5"
+            android:shadowRadius="4"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!-- Optional Seconds/Remaining Subtitle -->
+        <TextView
+            android:id="@+id/widget_medium_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:shadowColor="#CC000000"
+            android:shadowDx="0"
+            android:shadowDy="1.5"
+            android:shadowRadius="4"
+            android:textColor="#E2E8F0"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Empty State Container -->
+    <LinearLayout
+        android:id="@+id/widget_medium_empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/widget_medium_empty_image"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:contentDescription="Empty Countdown Widget" />
+
+        <TextView
+            android:id="@+id/widget_medium_empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:shadowColor="#CC000000"
+            android:shadowDx="0"
+            android:shadowDy="1.5"
+            android:shadowRadius="4"
+            android:text="No countdowns yet"
+            android:textColor="#FFFFFF"
+            android:textSize="12.5sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

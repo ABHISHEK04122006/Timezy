@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="110dp"
+    android:viewportWidth="250"
+    android:viewportHeight="110">
+
+    <!-- Category (Minimal Lavender Accent) -->
+    <path
+        android:fillColor="#B69AFF"
+        android:pathData="M 16,22 L 72,22 A 3,3 0 0,1 75,25 L 75,27 A 3,3 0 0,1 72,30 L 16,30 A 3,3 0 0,1 13,27 L 13,25 A 3,3 0 0,1 16,22 Z" />
+
+    <!-- Title (Prominent White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 16,40 L 140,40 A 4,4 0 0,1 144,44 L 144,49 A 4,4 0 0,1 140,53 L 16,53 A 4,4 0 0,1 12,49 L 12,44 A 4,4 0 0,1 16,40 Z" />
+
+    <!-- Date (Subtle Gray) -->
+    <path
+        android:fillColor="#A1A5B0"
+        android:pathData="M 16,63 L 115,63 A 3,3 0 0,1 118,66 L 118,69 A 3,3 0 0,1 115,72 L 16,72 A 3,3 0 0,1 13,69 L 13,66 A 3,3 0 0,1 16,63 Z" />
+
+    <!-- Description (Subtle Gray) -->
+    <path
+        android:fillColor="#8E929E"
+        android:pathData="M 16,81 L 95,81 A 3,3 0 0,1 98,84 L 98,86 A 3,3 0 0,1 95,89 L 16,89 A 3,3 0 0,1 13,86 L 13,84 A 3,3 0 0,1 16,81 Z" />
+
+    <!-- Right Side: Prominent White Days Number -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 188,30 L 234,30 A 6,6 0 0,1 240,36 L 240,58 A 6,6 0 0,1 234,64 L 188,64 A 6,6 0 0,1 182,58 L 182,36 A 6,6 0 0,1 188,30 Z" />
+
+    <!-- Days Left Label (Minimal Lavender Accent) -->
+    <path
+        android:fillColor="#B69AFF"
+        android:pathData="M 186,72 L 236,72 A 3,3 0 0,1 239,75 L 239,78 A 3,3 0 0,1 236,81 L 186,81 A 3,3 0 0,1 183,78 L 183,75 A 3,3 0 0,1 186,72 Z" />
+
+    <!-- Time Breakdown (Subtle Gray) -->
+    <path
+        android:fillColor="#A1A5B0"
+        android:pathData="M 194,88 L 228,88 A 2,2 0 0,1 230,90 L 230,92 A 2,2 0 0,1 228,94 L 194,94 A 2,2 0 0,1 192,92 L 192,90 A 2,2 0 0,1 194,88 Z" />
+
+</vector>

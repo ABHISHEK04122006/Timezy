@@ -1,0 +1,16 @@
+# Gradle generated files
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local machine configuration
+local.properties
+
+# Signing credentials - never upload these
+*.jks
+*.keystore
+key.properties

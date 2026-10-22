@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@layout/widget_*,@drawable/widget_*,@id/widget_*,@drawable/app_logo,@drawable/ic_splash_logo,@drawable/ic_notification"
+    tools:shrinkMode="safe" />

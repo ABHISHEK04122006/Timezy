@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Timezy</string>
+    <string name="widget_circle_description">Circular countdown ring displaying remaining days on home screen.</string>
+    <string name="widget_medium_description">Medium 2×2 circular countdown ring with expanded display.</string>
+</resources>
